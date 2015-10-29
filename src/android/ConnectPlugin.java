@@ -119,14 +119,14 @@ public class ConnectPlugin extends CordovaPlugin {
 
             @Override
             public void onCancel() {
-                FacebookOperationCanceledException e = new FacebookOperationCanceledException();
-                handleError(e, loginContext);
+                //FacebookOperationCanceledException e = new FacebookOperationCanceledException();
+                //handleError(e, loginContext);
             }
 
             @Override
             public void onError(FacebookException e) {
-                Log.e("Activity", String.format("Error: %s", e.toString()));
-                handleError(e, loginContext);
+                //Log.e("Activity", String.format("Error: %s", e.toString()));
+                //handleError(e, loginContext);
             }
         });
 
